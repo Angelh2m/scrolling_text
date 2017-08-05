@@ -1,0 +1,157 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  width: 100%
+}
+
+a{
+  color: black !important;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: left;
+}
+
+.head_img {
+  position: relative;
+}
+
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.marquee {
+  white-space: no-wrap;
+  overflow: hidden;
+}
+
+div.marquee>div.marquee-text {
+  white-space: nowrap;
+  display: inline;
+  width: auto;
+}
+
+.spacer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.menu nav a {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.logo {
+  margin: 40px 0px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.box {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  left: 0;
+}
+
+.box h2 {
+  font-size: 9rem;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+footer span {
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 18px;
+  display: inline-block;
+  letter-spacing: 1px;
+  border-bottom: solid 4px;
+  position: relative;
+  display: inline-block;
+}
+
+.line {
+  position: absolute;
+  width: 0;
+  border-bottom: 4px solid #67cef9;
+  z-index: 2;
+  -webkit-transition: opacity .1s, width .4s;
+  -o-transition: opacity .1s, width .4s;
+  transition: opacity .1s, width .4s;
+  bottom: -4px;
+}
+
+.col-sm-4:hover .line {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: opacity .1s, width .4s;
+  -o-transition: opacity .1s, width .4s;
+  transition: opacity .1s, width .4s;
+  border-bottom: 4px solid #67cef9;
+  bottom: -4px;
+}
+
+.footer .col-sm-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  vertical-align: bottom;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer h2 {
+  font-weight: 600;
+  font-size: 1.8em;
+  width: 85%;
+  line-height: 1.4;
+}
+
+footer h2:hover {
+  color: #67cef9;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+}
