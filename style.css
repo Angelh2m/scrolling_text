@@ -73,15 +73,33 @@ div.marquee>div.marquee-text {
 
 .box {
   position: absolute;
-  top: 25%;
+  top: 22%;
   width: 100%;
   left: 0;
 }
+
 
 .box h2 {
   font-size: 9rem;
   font-weight: bold;
   color: black;
+}
+
+
+@media (max-width: 650px){
+  .box {
+  top: 0%;
+  }
+
+  .box h2 {
+    font-size: 5rem;
+  }
+
+  .spacer img{
+    margin-bottom: 15px;
+
+  }
+
 }
 
 
@@ -118,6 +136,7 @@ footer span {
   bottom: -4px;
 }
 
+
 .footer .col-sm-4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,6 +152,8 @@ footer span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          margin-bottom: 5rem;
+
 }
 
 .footer {
